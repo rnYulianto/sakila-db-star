@@ -20,5 +20,3 @@ For this assignment in general I use docker-compose to build my containers, I us
     Apart from DAG that create and migrate the initial star database, I also create DAG that run daily to migrate data from previous date, I assume that the original database will be updated with new data.
 3. Comment Available in my code.
 4. I create simple query to demonstrate the defference between Origin Database and Star Schema, I put the code on Jupyter Notebook file in eda folder.
-
-jupyter lab --no-browser --ip="0.0.0.0" --allow-root --ServerApp.root_dir /opt/code
